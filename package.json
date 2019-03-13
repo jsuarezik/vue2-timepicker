@@ -6,7 +6,8 @@
     "dev": "node build/dev-server.js",
     "demo": "node build/demo.js",
     "minify": "node build/minify.js",
-    "lint": "eslint --ext .js,.vue src"
+    "lint": "eslint --ext .js,.vue src",
+    "prepare" : "npm run build"
   },
   "repository": {
     "type": "git",
